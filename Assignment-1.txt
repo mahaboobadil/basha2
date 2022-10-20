@@ -1,0 +1,135 @@
+Task 1 – Write a program to swap two number. For example a=10 and b=20 output should be a=20 and b=10
+
+public class SwapTwoNumbers {
+	
+  public static void main(String[] args) {
+	  
+	  int a=10,b=20,swap1;
+	  
+	  swap1=a;
+	  a=b;
+	  b=swap1;
+	  
+	  System.out.println(a+""+b);
+	
+  }
+		}
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Task 2-  Write a program to print the sum of below 5 numbers.
+	10,90.78,111,8989,7876
+
+Task 3-  Write a program to print the average of below 5 numbers.
+	10,90.78,111,8989,7876
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+public class SumOfFiveNumbers {
+	public static void main(String[] args) {
+			
+	int a=10,c=111,d=8989,e=7876,sum=0,ave=0;
+	float b=(float) 90.78;
+	
+	sum=(int) (a+b+c+d+e);
+	ave=sum/5;
+	
+	System.out.println("Sum of Five Numbers:"+sum);
+	System.out.println("Average of five Numbers:"+ave);
+	
+	}
+}
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Task 4- Write a program to print all even numbers from 1-200
+
+public class EvenNumbersOneToTwoHundred {
+
+	public static void main(String[] args) {
+		
+		int number=200;
+		for(int i=1;i<=number;i++) {
+			if(i%2==0) {
+				System.out.println("Even numbers from 1 to 200:"+i);
+				
+			}
+		}
+	}
+}
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Task 5- Write a program to print all odd numbers from 1-50
+
+package anotherpackage;
+
+public class OddNumberFormOneToFivtey {
+	
+	public static void main(String[] args) {
+		
+	int number=50;
+	
+	for(int i=1;i<=number;i++) {
+		if(i%2!=0) {
+			
+			System.out.println("Odd numbers between 1 to 50:"+i);
+		}
+	}
+  }
+}
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+public class PrimeNumberFromOneToThousend {
+
+	public static void main(String[] args) {
+		
+		int i=0;
+		int num=0;
+		String primnumbers="";
+		
+		for(i=1;i<=100;i++) {
+			int count=0;
+			for(num=i;num>=1;num--) {
+				if(i%num==0) {
+					count=count+1;
+					
+				}
+			}
+			if(count==2) {
+				primnumbers=primnumbers+i+"";
+			}
+ 	
+		}
+		System.out.println(primnumbers);	
+	}
+}
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+public class FindTheStringSelenium {
+
+	public static void main(String[] args) {
+		
+		String str="“Java”,”JavaScript”,”Selenium”,”Python”,”Mukesh”";
+		String s[]=str.split("");
+		for(int i=0;i<str.length();i++) {
+			if(s[i].contentEquals("Selenium")) {
+				
+				System.out.println(s[i]);
+			}
+		}
+	}
+}
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Task 7- Write a program to print below pattern
+
+public class PrintTryAngle {
+	
+	public static void main(String[] args) {
+		
+		int row=6;
+		
+		for(int i=0;i<row;i++) {
+			for(int j=0;j<=i;j++) {
+			System.out.print("*");
+		}
+		System.out.println();
+	}
+  }
+}
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Task 8- Write a program to print below students marks who have scored above 80
+	Example- 78,12,89,55,35
+	Output-  78,89
+
